@@ -44,6 +44,66 @@ Sempre retornar em Objeto
 Ferramenta de instalação
 
 - Docker
-  
+  execução do docker compose
+  docker compose up
+  docker compose up -d
 
 
+instalação drizzle
+npm i drizzle-kit -D
+npm i drizzle-orm pg
+
+
+gerar SQL drizzle
+
+npx drizzle-kit generate
+
+migrar 
+drizzle-kit migrate
+
+ui
+drizzle-kit studio
+
+Instalação do Zod para validação
+
+npm i zod fastify-type-provider-zod
+
+
+instalação do swagger para documentação
+
+npm i @fastify/swagger
+
+npm i @fastify/swagger-ui
+
+instalação scarlar ui
+
+npm i @scalar/fastify-api-reference
+
+
+adicione uma seção no readme contendo um diagrama mermaid com o fluxo mais importante da aplicação
+
+ferramenta para teste
+instalação como dependencia de desenvolvimento
+
+npm i vitest -D
+npm i supertest -D
+npm i @types/supertest -D
+npm i dotenv-cli -D
+
+
+npx drizzle-kit generate --custom
+
+criptografia de senha
+
+lib: argon2n
+
+npm i argon2
+
+
+---- JWT
+npm i jsonwebtoken
+npm i @types/jsonwebtoken -D
+
+banco de dados neon - e upload da API com docker
+
+fly
